@@ -1,4 +1,4 @@
-**## RAG de documentos
+## RAG de documentos
 
 Aplicación local con Streamlit para cargar documentos PDF, DOCX y Excel,
 indexarlos y hacer preguntas sobre su contenido. Cada formato tiene un lector
