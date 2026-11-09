@@ -32,7 +32,7 @@ LOGO_PATH = PROJECT_ROOT / "assets" / "rag_logo_banner.png"
 # - st.columns([1, 4, 1]): cambia los pesos para ensanchar o estrechar el área centrada.
 # - width: usa "stretch" para ocuparla entera o un número de píxeles para fijarla.
 # - caption: añade texto debajo del banner; None lo deja sin pie.
-_, logo_column, _ = st.columns([1, 2, 1])
+_, logo_column, _ = st.columns([1, 1, 1])
 with logo_column:
     st.image(
         str(LOGO_PATH),
